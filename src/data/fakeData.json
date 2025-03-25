@@ -1,0 +1,121 @@
+{
+    "sensorData": {
+        "moisture": 45,
+        "temperature": 22,
+        "ph": 6.5
+    },
+    "credentials": {
+        "username": "farmer",
+        "password": "password"
+    },
+    "cropHealth": {
+        "labels": ["Healthy", "Moderate", "Critical"],
+        "datasets": [{
+            "data": [70, 20, 10],
+            "backgroundColor": [
+                "#81c784", 
+                "#ffb74d", 
+                "#e57373"  
+            ],
+            "hoverBackgroundColor": [
+                "#a5d6a7",
+                "#ffc966",
+                "#ef9a9a"
+            ]
+        }]
+    },
+    "moistureTrends": {
+        "labels": ["Week 1", "Week 2", "Week 3", "Week 4"],
+        "datasets": [{
+            "label": "Soil Moisture",
+            "data": [30, 40, 50, 45],
+            "fill": false,
+            "borderColor": "#4caf50", 
+            "backgroundColor": "rgba(76, 175, 80, 0.2)", 
+            "borderWidth": 2,
+            "pointRadius": 5,
+            "pointBackgroundColor": "#4caf50",
+            "pointHoverRadius": 7,
+            "pointHoverBackgroundColor": "#66bb6a"
+        }]
+    },
+    "temperatureTrends": {
+        "labels": ["Week 1", "Week 2", "Week 3", "Week 4"],
+        "datasets": [{
+            "label": "Temperature",
+            "data": [20, 22, 21, 23],
+            "fill": false,
+            "borderColor": "#ff5722",
+            "backgroundColor": "rgba(255, 87, 34, 0.2)",
+            "borderWidth": 2,
+            "pointRadius": 5,
+            "pointBackgroundColor": "#ff5722",
+            "pointHoverRadius": 7,
+            "pointHoverBackgroundColor": "#ff8a65"
+        }]
+    },
+    "humidityTrends": {
+        "labels": ["Week 1", "Week 2", "Week 3", "Week 4"],
+        "datasets": [{
+            "label": "Humidity",
+            "data": [40, 45, 50, 55],
+            "fill": false,
+            "borderColor": "#2196f3",
+            "backgroundColor": "rgba(33, 150, 243, 0.2)",
+            "borderWidth": 2,
+            "pointRadius": 5,
+            "pointBackgroundColor": "#2196f3",
+            "pointHoverRadius": 7,
+            "pointHoverBackgroundColor": "#64b5f6"
+        }]
+    },
+    "co2Trends": {
+        "labels": ["Week 1", "Week 2", "Week 3", "Week 4"],
+        "datasets": [{
+            "label": "CO2 Levels",
+            "data": [400, 420, 410, 430],
+            "fill": false,
+            "borderColor": "#4caf50",
+            "backgroundColor": "rgba(76, 175, 80, 0.2)",
+            "borderWidth": 2,
+            "pointRadius": 5,
+            "pointBackgroundColor": "#4caf50",
+            "pointHoverRadius": 7,
+            "pointHoverBackgroundColor": "#66bb6a"
+        }]
+    },
+    "weatherForecast": [
+        "Sunny with a chance of rain in the evening.",
+        "High humidity expected tomorrow.",
+        "Frost warning for the next week."
+    ],
+    "alerts": [
+        "Low soil moisture detected, consider irrigation.",
+        "Possible pest infestation in crop section B.",
+        "Heavy rainfall expected tomorrow – adjust irrigation schedule.",
+        "Fertilization needed for optimal growth.",
+        "Temperature drop expected – cover sensitive crops."
+    ],
+    "marketData": {
+        "transactions": [
+            {
+                "date": "2023-10-01",
+                "product": "Tomatoes",
+                "quantity": 100,
+                "price": 20
+            },
+            {
+                "date": "2023-10-02",
+                "product": "Potatoes",
+                "quantity": 200,
+                "price": 50
+            },
+            {
+                "date": "2023-10-03",
+                "product": "Carrots",
+                "quantity": 150,
+                "price": 80
+            }
+        ]
+    }
+}
