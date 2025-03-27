@@ -100,7 +100,6 @@
         "transactions": [
             {
                 "date": "2025-01-01",
-                "date": "2025-01-01",
                 "product": "Tomatoes",
                 "quantity": 100,
                 "price": 20

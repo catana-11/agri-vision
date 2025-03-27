@@ -29,6 +29,8 @@ export default function HomePage() {
                     Today's weather: Sunny with a few clouds.
                     <div className="weather-box"><img src="sunny-cloud-pic.png" alt="Weather" /></div>
                 </div>
+                <br></br>
+                <hr></hr>
                 <h3>Agricultural News</h3>
                 <ul>
                     <li><u>New pest control methods show promise.</u></li>

@@ -5,7 +5,7 @@ export default function Alerts() {
     return (
         <div>
             <h2>Alerts & Notifications</h2>
-            <ul className='weather-box'>
+            <ul className='alert-box'>
                 {fakeData.alerts.map((alert, index) => (
                     <li key={index}>{alert}</li>
                 ))}

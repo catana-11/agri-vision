@@ -68,6 +68,7 @@ export default function FinancialManagement() {
                         ))}
                     </ul>
                     <h4>Total Expenses: ₹{totalExpenses}</h4>
+                    <hr></hr>
                 </div>
 
                 {/* Revenue Tracking */}
@@ -81,6 +82,7 @@ export default function FinancialManagement() {
                         ))}
                     </ul>
                     <h4>Total Revenue: ₹{totalRevenue}</h4>
+                    <hr></hr>
                 </div>
 
                 {/* Loan Management */}
@@ -94,6 +96,7 @@ export default function FinancialManagement() {
                         ))}
                     </ul>
                     <h4>Total Loan Amount: ₹{totalLoans}</h4>
+                    <hr></hr>
                 </div>
                 
                 {/* Profit Calculation */}

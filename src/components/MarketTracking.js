@@ -4,7 +4,8 @@ export default function MarketTracking() {
     return (
         <div>
             <h2>Farm-to-Market Tracking</h2>
-            <p>Showcasing how farm produce moves from Farmer → Distributor → Retailer.</p>
+            <br></br>
+            <h4>Showcasing how farm produce moves from Farmer → Distributor → Retailer.</h4>
             <div className='image-box'>
                 <img src="qrcode.jpeg" alt="QR Code for traceability" className='qr-box' />
             </div>
@@ -19,6 +20,9 @@ export default function MarketTracking() {
                     ))}
                 </ul>
             </div>
+            
+            <br></br>
+            <hr color="black"></hr>
 
             <div className="container">
                 <h2>Average rates at nearest markets</h2>
