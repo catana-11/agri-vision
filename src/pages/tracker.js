@@ -83,7 +83,7 @@ export default function Tracker() {
                         {farmSize && (
                             <div className="results">
                                 <h4>According to current sensor data:</h4>
-                                <ul>
+                                <ul className='video-box'>
                                     <li>Water Required: {waterRequired} Liters</li>
                                     <li>Pesticide Required: {pesticideRequired} Liters</li>
                                     <li>Insecticide Required: {insecticideRequired} Liters</li>

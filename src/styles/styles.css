@@ -179,7 +179,7 @@ nav a:hover {
 /* Aesthetic Login Container */
 .login-container {
     max-width: 400px;
-    margin: 100px auto;
+    margin: 70px auto;
     padding: 30px;
     border-radius: 15px;
     background: linear-gradient(145deg, #e0e7ff, #c4d7f2); /* Gradient background */
