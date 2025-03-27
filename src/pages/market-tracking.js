@@ -18,6 +18,8 @@ export default function HomePage() {
       <Navbar />
       <div className="container">
       <MarketTracking />
+      
+      
       </div>
     </div>
   );

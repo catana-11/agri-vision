@@ -15,19 +15,19 @@ export default function HomePage() {
         <div>
             <Navbar />
             <div className="container">
-                <h2>Educational Resources</h2>
+                <h2>Surrounding market place</h2>
                 <div className="education-resources">
                     <div className="resource">
-                        <h3><u>Education Planning and Home Science</u></h3>
-                        <div className="video-box"><img src="farmer1.avif" alt="Video" /></div>
+                        <h3><u>Tracktor for sale </u></h3>
+                        <div className="video-box"><img src="tracktor.webp" alt="Video" /></div>
                     </div>
                     <div className="resource">
-                        <h3><u>Warehouse Maintenance</u></h3>
-                        <div className="video-box"><img src="farmer2.jpg" alt="Video" /></div>
+                        <h3><u>Battery operated pesticide sprayer </u></h3>
+                        <div className="video-box"><img src="spray.jpg" alt="Video" /></div>
                     </div>
                     <div className="resource">
-                        <h3><u>Crop Rotation Techniques</u></h3>
-                        <div className="video-box"><img src="farmer3.jpg" alt="Crop Rotation" /></div>
+                        <h3><u>Organic Seeds</u></h3>
+                        <div className="video-box"><img src="organic.jpg" alt="Crop Rotation" /></div>
                     </div>
                 </div>
             </div>

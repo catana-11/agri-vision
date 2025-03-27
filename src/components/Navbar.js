@@ -13,6 +13,9 @@ export default function Navbar() {
         <li><Link href="/device">Device</Link></li> {/* New link */}
         <li><Link href="/grain">Grain</Link></li> {/* New link */}
         <li><Link href="/education">Education</Link></li> {/* New link */}
+        <li><Link href="/market">Market</Link></li> {/* New link */}
+        <li><Link href="/financial">Financials</Link></li> {/* New link */}
+
       </ul>
     </nav>
   );
